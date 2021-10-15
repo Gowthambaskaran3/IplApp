@@ -1,0 +1,11 @@
+
+1 CSK MS Dhoni 114
+1 CSK Suresh Raina 160
+1 CSK Ravindra Jadeja 227
+1 CSK Ruturaj Gaikwad 635
+2 RCB Ab De Villiers 313
+2 RCB Virat Kohli 405
+2 RCB Glenn Maxwell  513
+3 DC Shreyas Iyer 175
+3 DC Rishab Pant 419
+3 DC Prithvi Shaw 479

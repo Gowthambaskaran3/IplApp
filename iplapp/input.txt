@@ -1,0 +1,10 @@
+CSK	Ruturaj Gaikwad
+DC	Shreyas Iyer
+RCB	Virat Kohli
+RCB	Ab De Villiers
+CSK	MS Dhoni
+CSK	Suresh Raina
+DC	Rishab Pant
+CSK	Ravindra Jadeja
+DC	Prithvi Shaw
+RCB	Glenn Maxwell 

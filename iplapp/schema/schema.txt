@@ -1,0 +1,19 @@
+use ipl;
+CREATE TABLE `iplTable` (
+  `teamId` int DEFAULT NULL,
+  `teamName` varchar(255) DEFAULT NULL,
+  `playerName` varchar(255) DEFAULT NULL,
+  `playerScore` int DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci
+
+use ipl;
+CREATE TABLE `iplTeam` (
+  `teamId` int DEFAULT NULL,
+  `teamName` varchar(255) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci
+
+
+Insert Into:
+INSERT INTO `ipl`.`iplteam` (`teamId`, `teamName`) VALUES ('1', 'CSK');
+INSERT INTO `ipl`.`iplteam` (`teamId`, `teamName`) VALUES ('2', 'RCB');
+INSERT INTO `ipl`.`iplteam` (`teamId`, `teamName`) VALUES ('3', 'DC');
