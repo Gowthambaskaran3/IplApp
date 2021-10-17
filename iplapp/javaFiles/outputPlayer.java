@@ -44,7 +44,7 @@ public class outputPlayer {
                     String teamName = rsSet.getString("teamName");
                     String playerName = rsSet.getString("playerName");
                     String playerScore = rsSet.getString("playerScore");
-                    String s = "\n" + teamId + " " + teamName + " " + playerName + " " + playerScore;
+                    String s =teamId+" "+teamName+" "+playerName+" " +playerScore+"\n";
                     data.writeBytes(s);
                 }
                 System.out.println("Team "+i+" has been written to output.txt" );
