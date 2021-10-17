@@ -38,7 +38,7 @@ public class insertingplayer {
             Scanner scanner = new Scanner(Paths.get(fileName));
             String teamName = "", playerName = "",teamId="",playerScore="";
             while(scanner.hasNext()) {
-                String content = scanner.useDelimiter("\n").next();
+                String content = scanner.nextLine();
                 String[] str = content.split("\t");
                 teamName = str[0];
                 playerName = str[1];
@@ -53,7 +53,7 @@ public class insertingplayer {
                 playerScore = keyBoardInput.nextLine();
 
                 Stmnt.executeUpdate("insert into ipltable(teamId,teamName,playerName,playerScore) values('" + teamId + "','" + teamName + "','" + playerName + "','"+playerScore+"')");
-
+                System.out.println("Inserted "+playerName+"into the DB");
             }
             scanner.close();
 
